@@ -1,0 +1,30 @@
+body {
+  background-color:#EDF5FC;
+  font-family: "roboto", sans-serif;
+  line-height: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 400px;
+}
+
+p {
+  font-weight: 100;
+
+}
+
+.grayLink {
+  background-color: #A39BA8;
+  color:rgb(250, 250, 250);
+  padding:10px;
+  text-decoration: none;
+}
+.grayLink:hover {
+  background-color: #B8C5D6;
+}
