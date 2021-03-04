@@ -1,7 +1,8 @@
 body {
   background-color:#EDF5FC;
   font-family: "roboto", sans-serif;
-  line-height: 20px;
+  line-height: 1.5;
+  text-align: center;
 }
 
 h1 {
@@ -19,12 +20,42 @@ p {
 
 }
 
-.grayLink {
+.gray-link {
   background-color: #A39BA8;
   color:rgb(250, 250, 250);
   padding:10px;
   text-decoration: none;
 }
-.grayLink:hover {
+.gray-link:hover {
   background-color: #B8C5D6;
 }
+
+.card-white {
+  background-color: rgb(250, 250, 250);
+  border-radius: 10px;
+  box-shadow: 2px 2px #A39BA8;
+  padding: 10px;
+  margin: 10px;
+}
+.image-circle {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.logo {
+  width: 10px;
+}
+
