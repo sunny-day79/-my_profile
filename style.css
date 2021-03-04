@@ -7,12 +7,12 @@ body {
 
 h1 {
   font-size: 30px;
-  font-weight: 700px;
+  font-weight: 700;
 }
 
 h2 {
   font-size: 20px;
-  font-weight: 400px;
+  font-weight: bold;
 }
 
 p {
@@ -20,31 +20,39 @@ p {
 
 }
 
-.gray-link {
-  background-color: #A39BA8;
-  color:rgb(250, 250, 250);
-  padding:10px;
+.btn-gray {
   text-decoration: none;
+  color:rgb(250, 250, 250);
+  background-color: #A39BA8;
+  padding:10px;
+  border-radius: 10px;
+  display: inline-block;
 }
-.gray-link:hover {
+
+.btn-gray:hover {
+  color:rgb(0,0,0);
   background-color: #B8C5D6;
+  transition: 0.5s;
+}
+
+.container {
+  width: 800px;
+  margin: 0px auto;
 }
 
 .card-white {
   background-color: rgb(250, 250, 250);
   border-radius: 10px;
-  box-shadow: 2px 2px #A39BA8;
+  box-shadow: 4px 4px 4px #A39BA8;
   padding: 10px;
-  margin: 10px;
+  margin: 20px;
+
 }
+
 .image-circle {
   border-radius: 50%;
   width: 100px;
-}
-
-.container {
-  width: 800px;
-  margin: 0 auto;
+  height: 100px;
 }
 
 .list-inline > li {
@@ -56,6 +64,28 @@ p {
   padding-left: 0px;
 }
 .logo {
-  width: 10px;
+  color:#A39BA8;
 }
 
+.logo:hover {
+  color: #B8C5D6;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
