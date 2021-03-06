@@ -17,7 +17,6 @@ h2 {
 
 p {
   font-weight: 100;
-
 }
 
 .btn-gray {
@@ -27,12 +26,12 @@ p {
   padding:10px;
   border-radius: 10px;
   display: inline-block;
+  transition: 0.5s;
 }
 
 .btn-gray:hover {
   color:rgb(0,0,0);
   background-color: #B8C5D6;
-  transition: 0.5s;
 }
 
 .container {
@@ -46,7 +45,6 @@ p {
   box-shadow: 4px 4px 4px #A39BA8;
   padding: 10px;
   margin: 20px;
-
 }
 
 .image-circle {
@@ -59,10 +57,12 @@ p {
   display: inline-block;
   padding: 0px 20px;
 }
+
 .list-inline {
   list-style: none;
   padding-left: 0px;
 }
+
 .logo {
   color:#A39BA8;
 }
